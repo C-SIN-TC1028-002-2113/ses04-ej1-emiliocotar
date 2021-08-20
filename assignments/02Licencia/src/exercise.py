@@ -10,9 +10,10 @@ def main():
             print("No cumples requisitos")  
         elif id!="n":
             print("Respuesta incorrecta") 
+    elif edad<=0:
+        print("Respuesta incorrecta")
     else:
         print("No cumples requisitos")
-
 
 
 
